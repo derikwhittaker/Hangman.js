@@ -1,0 +1,42 @@
+{
+  "name": "hangman-js",
+  "version": "0.1.0",
+  "description": "An example module to illustrate the usage of a package.json",
+  "author": "Your Name <you.name@example.org>",
+  "contributors": [
+    {
+      "name": "Foo Bar",
+      "email": "foo.bar@example.com"
+    }
+  ],
+  "bin": {
+    "module-name": ""
+  },
+  "scripts": {
+    "test": "vows --spec --isolate",
+    "start": "node app.js",
+    "prepublish": ""
+  },
+  "main": "lib/foo.js",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": ""
+  },
+  "keywords": [],
+  "dependencies": {},
+  "devDependencies": {
+    "gulp-jasmine": "^2.4.2",
+    "jasmine": "^2.6.0",
+    "jasmine-spec-reporter": "^4.1.0",
+    "jshint-stylish": "^2.2.1"
+  },
+  "preferGlobal": true,
+  "private": true,
+  "publishConfig": {
+    "registry": ""
+  },
+  "license": "MIT"
+}
